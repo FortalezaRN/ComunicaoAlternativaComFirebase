@@ -1,0 +1,64 @@
+[debug] [2017-06-12T15:02:29.193Z] ----------------------------------------------------------------------
+[debug] [2017-06-12T15:02:29.198Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\forta\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-12T15:02:29.198Z] CLI Version:  3.9.1
+[debug] [2017-06-12T15:02:29.199Z] Platform:     win32
+[debug] [2017-06-12T15:02:29.199Z] Node Version: v6.10.3
+[debug] [2017-06-12T15:02:29.199Z] Time:         Mon Jun 12 2017 12:02:29 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-06-12T15:02:29.200Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-12T15:02:29.221Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-12T15:02:29.222Z] > authorizing via signed-in user
+[debug] [2017-06-12T15:02:29.225Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/comunicacaoalternativa-5f785  
+ Mon Jun 12 2017 12:02:29 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-06-12T15:02:30.443Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-12T15:02:30.444Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/comunicacaoalternativa-5f785/tokens  
+ Mon Jun 12 2017 12:02:30 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-06-12T15:02:31.310Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\forta\git\ComunicacaoAlternativaFirebaseFull'...
+[info] 
+[debug] [2017-06-12T15:02:31.315Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/comunicacaoalternativa-5f785  
+ Mon Jun 12 2017 12:02:31 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-06-12T15:02:33.880Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-12T15:02:33.880Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/536588523540/clients/_:getWebAppConfig  
+ Mon Jun 12 2017 12:02:33 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-06-12T15:02:35.422Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: /
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-06-29T17:27:27.445Z] ----------------------------------------------------------------------
+[debug] [2017-06-29T17:27:27.461Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\forta\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-29T17:27:27.461Z] CLI Version:  3.9.1
+[debug] [2017-06-29T17:27:27.462Z] Platform:     win32
+[debug] [2017-06-29T17:27:27.462Z] Node Version: v6.10.3
+[debug] [2017-06-29T17:27:27.462Z] Time:         Thu Jun 29 2017 14:27:27 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-06-29T17:27:27.463Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-29T17:27:27.535Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-29T17:27:27.536Z] > authorizing via signed-in user
+[debug] [2017-06-29T17:27:27.539Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-29T17:27:27.540Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/M92f1W4Xup1-uLXDGGPKMwD-6iIl6Xb6Aw-aoN71EbCEkNaPWVAN8UKTSQRrJPcj',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jun 29 2017 14:27:27 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-06-29T17:27:28.044Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-29T17:27:28.074Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/comunicacaoalternativa-5f785  
+ Thu Jun 29 2017 14:27:28 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-06-29T17:27:29.647Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-29T17:27:29.648Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/comunicacaoalternativa-5f785/tokens  
+ Thu Jun 29 2017 14:27:29 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-06-29T17:27:30.551Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\forta\git\ComunicacaoAlternativaFirebaseFull'...
+[info] 
+[debug] [2017-06-29T17:27:30.556Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/comunicacaoalternativa-5f785  
+ Thu Jun 29 2017 14:27:30 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-06-29T17:27:31.843Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-29T17:27:31.843Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/536588523540/clients/_:getWebAppConfig  
+ Thu Jun 29 2017 14:27:31 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-06-29T17:27:32.889Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: /
+[info] +  hosting: Local server: http://localhost:5000
+

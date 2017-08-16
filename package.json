@@ -1,0 +1,23 @@
+{
+  "name": "comunicacaoalternativa",
+  "version": "0.0.1",
+  "description": "Ajuda pessoas com dificuldade em fala",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "firebase",
+    "express",
+    "angular"
+  ],
+  "author": "Leandro Fortaleza",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "firebase": "^3.5.2"
+  }
+}

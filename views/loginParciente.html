@@ -1,0 +1,20 @@
+<div>
+	<div class="container">
+		<div class="loginmodal-container">
+			<h1>Logue para sua conta</h1><br>
+
+			<form ng-submit="UserPaciente.loginSubmit()">
+				<input type="text" name="UserPaciente" ng-model="UserPaciente.email" placeholder="email">
+				<input type="password" ng-model="UserPaciente.password" name="pass" placeholder="Senha">
+				<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+			</form>
+
+			<a type="button" class="login loginmodal-submit-verde btn-modal a-link" href="/registerParciente">Registre-se</a>
+
+			<div class="login-help">
+				<a href="#">Esqueceu a senha?</a>
+			</div>
+
+		</div>
+	</div>
+</div>
